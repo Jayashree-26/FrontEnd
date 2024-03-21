@@ -1,0 +1,135 @@
+body{
+    background-color: papayawhip;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 650px;
+    margin: 70px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-family:"Young Serif";
+    /* font-weight: 400; */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.image-container {
+    text-align: center; /* Center the content horizontally */
+}
+
+.image-container img {
+    max-width: 90%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain the aspect ratio */
+    display: inline-block; /* Allow the container to take up only as much width as necessary */
+    border-radius: 20px;
+    margin-top: 20px;
+    /* padding-top: 20px; */
+}
+
+p{
+    font-family: "Outfit",serif;
+    font-weight: 400, 600, 700;
+    color:  hsl(30, 10%, 34%);
+    font-size: 15px;
+}
+
+.preparation-time {
+    background-color:hsl(330, 100%, 98%);
+    border-radius: 10px;
+    font-family: "Outfit",serif;
+    padding: 10px;
+    /* text-align: center; */
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.preparation-time h3 {
+    margin-top: 15px;
+    margin-left: 25px;
+    color:hsl(332, 51%, 32%);
+}
+
+.list li{
+    margin-left: 6px;
+    height: auto;
+    margin-bottom: 10px;
+    text-align: justify;
+    color:  hsl(30, 10%, 34%);
+    font-family: 'Outfit',serif;
+}
+
+.list li strong{
+    color:hsl(30, 10%, 34%);
+    font-weight: 900px;
+}
+
+li::marker {
+    color:hsl(30, 10%, 34%); /* Change the color of the bullet points */
+}
+
+h2{
+    font-family:"Young Serif";
+    color: hsl(14, 45%, 36%);
+    margin-left: 25px;
+}
+
+.ingredients_list li{
+    margin-left: 6px;
+    height: auto;
+    line-height: 150%;
+    color:  hsl(30, 10%, 34%);
+    font-family: 'Outfit',serif;
+}
+
+hr{
+    color:hsl(330, 100%, 98%);
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.Instructions_list{
+    margin-left: 6px;
+    height: auto;
+    font-size: 14px;
+    line-height: 150%;
+    color:  hsl(30, 10%, 34%);
+    font-family: 'Outfit',serif;
+}
+
+.Instructions_list li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    color:hsl(30, 10%, 34%);
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-size: 13px;
+    font-family: 'Outfit',serif;
+
+}
+
+td:first-child {
+    color: hsl(30, 10%, 34%); /* Set background color for the first td in each row */
+}
+
+td:not(last-child) {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%); /* Set background color for all td except the last one in each row */
+}
+
+
+
