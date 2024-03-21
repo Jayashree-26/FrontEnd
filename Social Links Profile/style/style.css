@@ -1,0 +1,88 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 350px;
+    margin: 100px auto;
+    background-color:hsl(0, 0%, 12%);
+    padding: 20px;
+    border-radius: 10px;
+    font-family:"Young Serif";
+    /* font-weight: 400; */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.profile-picture {
+    border-radius: 50%; /* Make the image round */
+    width: 70px; /* Adjust the size of the profile picture */
+    height: 70px; /* Adjust the size of the profile picture */
+    overflow: hidden; /* Hide overflowing parts of the image */
+    margin: 0 auto 20px; /* Center the profile picture and add some margin */
+}
+
+.profile-picture img {
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing:1px;
+}
+
+.place{
+    color:  hsl(75, 94%, 57%);
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    margin-top: -20px;
+    letter-spacing: 0.5px;
+    font-weight: 900;
+}
+
+p{
+    padding-top: 10px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.social-buttons {
+    list-style: none;
+    padding: 0;
+    padding-top: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.social-buttons li {
+    margin-bottom: 10px;
+    
+}
+
+.social-buttons li button {
+    width: 90%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color:hsl(0, 0%, 20%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.social-buttons li button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%) ;
+}
