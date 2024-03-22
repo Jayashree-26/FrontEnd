@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(275, 100%, 97%);
+    background-image: url(/FAQ/assets/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Work Sans', sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+img,svg{
+    max-width: 100%;
+    display: block;
+}
+
+button{
+    cursor: pointer;
+    background-color: transparent;
+    width: calc(100% - 30px); /* Adjust button width to accommodate the icon */
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: grid;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    border: 0;
+    color: black;
+}
+
+.accordion-btn:hover{
+    color: hsl(293, 69%, 30%);
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 800px;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+img.plus {
+    margin-left: 700px;
+    margin-top: -5%;
+}
+
+.faqheadline{
+    display: flex;
+    gap: 2rem;
+}
+
+.faqheadline h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.accordion-container .accordion-item:not(:last-child){
+    border-bottom: 2px solid hsl(275, 100%, 97%);
+}
+
+
+.accordion-item .icons img{
+    max-width: 30px;
+
+}
+
+.accordion-item .icons .minus{
+    display: none;
+    margin-left: 700px;
+    margin-top: -5%;
+
+}
+
+.accordion-description{
+    background-color: hsl(0, 0%, 100%);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 200ms ease;
+}
+
+.accordion-description p{
+    color: hsl(292, 16%, 49%);
+    padding: 1.5rem 0;
+    margin-top: -3%;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 540px) {
+    body {
+      background-image: url(/FAQ/assets/background-pattern-mobile.svg);
+    }
+  }
+  
